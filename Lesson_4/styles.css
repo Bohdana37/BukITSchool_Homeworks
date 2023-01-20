@@ -1,0 +1,90 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    color: red;
+}
+#our_laptops {
+    background-image: url('images/background.webp');
+    border: 1px dotted black;
+    padding: 15px 10px 10px 10px;
+    margin-bottom: 15px;
+}
+
+#our_offer {
+    color: darkgreen;
+}
+
+#foto_our_laptops {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-size: contain;
+}
+
+#asus_laptop {
+    border: 1px solid blue;
+    background-image: url('images/laptop-bg.jpg');
+    background-size: contain;
+    text-align: center;
+    border-radius: 10%;
+    height: fit-content;
+    width: fit-content;
+    line-height: 40px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.laptop {
+    border: 1px solid blue;
+    background-image: url('images/laptop-bg.jpg');
+    background-size: contain;
+    border-radius: 10%;
+    height: fit-content;
+    width: 300px;
+    line-height: 40px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.foto_laptop {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-position: center;
+    padding: 50px;
+    height: 150px;
+    width: 150px;
+}
+
+#contactForm {
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 300px;
+}
+
+#contactForm h2 {
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+}
+
+.information {
+    text-align: center;
+}
+
+.laptop {
+    cursor: pointer;
+}
+
+.laptop:hover {
+    font-size: 20px;
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
