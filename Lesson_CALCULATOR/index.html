@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Розумний калькулятор</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+
+<body>
+
+    <table>
+        <tr>
+            <td colspan="4" class="result">
+                <form>
+                    <input type="text" id="main_result" value="0" >
+                </form>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button type="button" class="button left parenthesis">(</button>
+            </td>
+
+            <td>
+                <button type="button" class="button right parenthesis">)</button>
+            </td>
+
+            <td>
+                <button type="button" class="button %">%</button>
+            </td>
+
+            <td>
+                <button type="button" id = "button_ac">AC</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button type="button" class="digit_num" value = '7'>7</button>
+            </td>
+
+            <td>
+                <button type="button" class="digit_num" value = '8'>8</button>
+            </td>
+
+            <td>
+                <button type="button" class="digit_num" value = '9'>9</button>
+            </td>
+
+            <td>
+                <button type="button" class="button_operation" value = '/'>/</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button type="button" class="digit_num" value = '4'>4</button>
+            </td>
+
+            <td>
+                <button type="button" class="digit_num" value = '5'>5</button>
+            </td>
+ 
+            <td>
+                <button type="button" class="digit_num" value = '6'>6</button>
+            </td>
+
+            <td>
+                <button type="button" class="button_operation" value = '*'>x</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button type="button" class="digit_num" value = '1'>1</button>
+            </td>
+
+            <td>
+                <button type="button" class="digit_num" value = '2'>2</button>
+            </td>
+
+            <td>
+                <button type="button" class="digit_num" value = '3'>3</button>
+            </td>
+
+            <td>
+                <button type="button" class="button_operation" value = '-'>-</button>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>
+                <button type="button" class="digit_num" value = '0'>0</button>
+            </td>
+
+            <td>
+                <button type="button" class="button .">.</button>
+            </td>
+
+            <td>
+                <button onclick="getResult()" type="button" id="res_button" value = '='>=</button>
+            </td>
+
+            <td>
+                <button type="button" class="button_operation" value="+">+</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+
+</html>
